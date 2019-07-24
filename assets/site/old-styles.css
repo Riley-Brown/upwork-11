@@ -1,0 +1,496 @@
+/* old normal episode styles */
+
+
+.old .episode h4 {
+	text-align: center;
+	margin: 0px;
+	padding: 5px 0px 0px;
+	border-top: 2px solid #368AB2;
+	font: bold 16px/22px Arial, Helvetica, sans-serif;
+	color: #990000;
+}
+
+.old .episode h5 {
+	text-align: center;
+	margin: 0px;
+	padding: 5px 0px;
+	border-bottom: 2px solid #368AB2;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	color: #666;
+}
+
+.old .episodeTop {
+	height: 45px;
+	background-color: #4999C9;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	-khtml-border-radius: 10px 10px 0px 0px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
+}
+.old .episodeTop p, .old .episodeTopSpecial p {
+	text-transform: uppercase;
+	font: 32px/32px BrandonGrotesqueBlack, Arial, San-Serif;
+	color: #fff;
+	float: right;
+	margin: 8px 15px 0 0;
+}
+
+.old .episodeTop em, .old .episodeTopSpecial em {
+	color: #f9bc26;
+	font-style:normal;
+}
+
+.old .episodeTop a span, .old .episodeTopSpecial a span, .old .episodeTopOld a span{
+	font-size: 12px;
+	vertical-align: top;
+	color: #EFEFEF;
+}
+
+.old .episodeTop a:link, .episodeTop a:visited {
+	font: bold 24px/48px Interstate-Bold, "Arial Bold", sans-serif;
+	text-transform: uppercase;
+	color: #f9bc26;
+	padding-left: 15px;
+	text-decoration: none;
+	display:block;
+}
+
+.old .episodeTopNew a:link, .episodeTopNew a:visited {
+	font: bold 18px/45px Interstate-Bold, "Arial Bold", sans-serif;
+	text-transform: uppercase;
+	color: #f9bc26;
+	padding-left: 53px;
+	text-decoration: none;
+	display:block;
+}
+
+.old .episodeTop a:hover, .episodeTopNew a:hover {
+	color: #e2cfc0;
+	text-decoration: none;
+}
+
+.old .episodeTopOld {
+	height: 80px;
+	background-color: #4999C9;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	-khtml-border-radius: 10px 10px 0px 0px;
+}
+
+.old .episodeTopOld a:link, .episodeTopOld a:visited {
+	font: bold 24px/80px Interstate-Bold, "Arial Bold", sans-serif;
+	text-transform: uppercase;
+	color: #f9bc26;
+	padding-left: 15px;
+	text-decoration: none;
+	display:block;
+}
+
+.old .episodeTopOld a:hover {
+	color: #e2cfc0;
+	text-decoration: none;
+}
+
+.old .episodeTopOld .albums img {
+	float: right;
+}
+
+.old .albums {
+	height:71px;
+	width: 50%;
+	margin: 7px 10px 0px 0px;
+	float:right;
+}
+
+.old .albums img {
+	padding: 0px 0px 0px 10px;
+}
+
+.old .episodeContent, .old .episodeContentNew {
+	padding: 10px 18px;
+	font: 11px/18px Helvetica, Arial, sans-serif;
+	color: #333;
+	background-color: #fff;
+	-moz-box-shadow: inset 0 0 5px #888;
+	-webkit-box-shadow: inset 0 0 5px #888;
+	box-shadow: inner 0 0 5px #888;
+}
+
+.old .episodeContent a:link, .old .commentsContent a:link {
+	color: #40a2d1;
+	text-decoration: none;
+}
+.old .episodeContent a:visited, .old .commentsContent a:visited {
+	text-decoration: none;
+	color: #40A2D1;
+}
+.old .episodeContent a:hover, .old .commentsContent a:hover {
+	text-decoration: underline;
+	color: #4462cc;
+}
+.old .episodeContent a:active, .old .commentsContent a:active {
+	text-decoration: none;
+	color: #be1e2d;
+}
+
+.old .episodeBottom, .old .episodeBottomNew {
+	background-color: #4999C9;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+	-khtml-border-radius: 0px 0px 10px 10px;	
+	margin-bottom:30px;
+	font: 11px Helvetica, Arial, sans-serif;
+	color: #9bc2d5;
+	text-align: right;
+	height: 20px;
+	padding: 5px 15px 0 0;
+}
+
+.old .episodeBottom a:link, .old .episodeBottom a:visited {
+	color: #d8d8d8;
+}
+
+.old .episodeBottomNew a:link, .old .episodeBottomNew a:visited {
+	color: #d8d8d8;
+}
+
+.old .episodeBottom a:hover, .old .episodeBottomNew a:hover {
+	color: #f9bc26;
+}
+
+/* end of normal episode styles */
+
+/* special episode styles */
+
+.old .episodeVersion2 {
+	margin: 15px 8px;
+}
+
+.old .episodeTopSpecial {
+	height: 45px;
+	background-color: #5b4337;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	-khtml-border-radius: 10px 10px 0px 0px;
+}
+
+.old .episodeTopSpecial a:link, .old .episodeTopSpecial a:visited {
+	font: bold 24px/48px Interstate-Bold, "Arial Bold", sans-serif;
+	text-transform: uppercase;
+	color: #f9bc26;
+	padding-left: 15px;
+	text-decoration: none;
+	display:block;
+}
+
+.old .episodeTopSpecial a:hover {
+	color: #e2cfc0;
+	text-decoration: none;
+}
+
+.old .episodeContentSpecial {
+	background-color: #fff;
+	padding: 10px 18px;
+}
+
+.old .episodeBottomSpecial {
+	background-color: #5b4337;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+	-khtml-border-radius: 0px 0px 10px 10px;
+	margin-bottom:30px;
+	font: 11px Helvetica, Arial, sans-serif;
+	color: #9bc2d5;
+	text-align: right;
+	height: 20px;
+	padding: 5px 15px 0 0;
+}
+
+.old .episodeBottomSpecial a:link, .old .episodeBottomSpecial a:visited {
+	color: #d8d8d8;
+}
+
+.old .episodeBottomSpecial a:hover {
+	color: #f9bc26;
+}
+
+/* end of special episode styles */
+
+
+/* styles for album info for episodes */
+
+.old .episodeContent div.song {
+	background: url(../images/bg-art_shadow.gif) no-repeat top left;
+	width: 50%;
+	margin: 8px 0px 12px 0px;
+	float:left;
+	padding: 0;
+}
+
+.old .episodeContent .song h1 {
+	color: #333;
+	font: 12px/16px Interstate-Black, "Arial Black", Arial  sans-serif;
+	text-align: center;
+	margin-top: 8px;
+	width: 16px;
+	float: left;
+}
+.old .episodeContent .song img {
+	float: left;
+	padding: 3px 4px 3px 4px;
+}
+
+.old .episodeContent .song ul {
+	margin: 0 0 0 8px;
+	padding: 0;
+	font: 11px/18px Helvetica, Arial, sans-serif;
+	color: #333;
+	background: none;
+	float: right;
+	list-style: none;
+	float: left;
+	width: auto;
+	text-wrap: normal;
+	max-width: 395px;
+}
+
+.old .episodeContent .song a:link {
+	color: #40a2d1;
+	text-decoration: none;
+}
+.old .episodeContent .song a:visited {
+	text-decoration: none;
+	color: #40A2D1;
+}
+.old .episodeContent .song a:hover {
+	text-decoration: underline;
+	color: #4462cc;
+}
+.old .episodeContent .song a:active {
+	text-decoration: none;
+	color: #be1e2d;
+}
+
+.old .episodeContent .from {
+	color: #909c9f;
+}
+
+.old .episodeContent .from a:link {
+	color: #40a2d1;
+	text-decoration: none;
+	font-weight:bold;
+}
+.old .episodeContent .from a:visited {
+	text-decoration: none;
+	color: #40A2D1;
+	font-weight:bold;
+}
+.old .episodeContent .from a:hover {
+	text-decoration: underline;
+	color: #4462cc;
+	font-weight:bold;
+}
+.old .episodeContent .from a:active {
+	text-decoration: none;
+	color: #be1e2d;
+	font-weight:bold;
+}
+
+.old .episodeContent .band {
+	padding-top: 2px;
+	color: #909c9f;
+}
+
+.old .episodeContent .band a:link {
+	font: 12px/18px Helvetica, Arial, sans-serif;
+	color: #ba0011;
+	text-decoration: none;
+	font-weight:bold;
+}
+.old .episodeContent .band a:visited {
+	font-size: 12px;
+	text-decoration: none;
+	color: #ba0011;
+	font-weight: bold;
+}
+.old .episodeContent .band a:hover {
+	font-size: 12px;
+	text-decoration: underline;
+	color: #4462cc;
+	font-weight: bold;
+}
+.old .episodeContent .band a:active {
+	font-size: 12px;
+	text-decoration: none;
+	color: #be1e2d;
+	font-weight: bold;
+}
+
+/* end of styles for album info for episodes */
+
+
+/* styles for episode notes */
+
+
+.old .note, .old span.note {
+	background-color: #5b4337;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	color: #e8d6c6;
+	display:block;
+	padding: 8px;
+	float:left;
+}
+
+.old .note a:link {
+	color: #d8b593;
+}
+
+.old .note a:visited {
+	color: #d8b593;
+}
+
+.old .note a:hover {
+	color: #FFF;
+}
+
+.old .noteNarrow {
+	width: 450px;
+	float:left;
+	margin: 8px 10px 0 20px;;
+}
+
+.old .noteWide {
+	width: 1000px;
+	float:left;
+	margin: 8px 0 0 0;
+}
+
+.old .noteTop {
+	 margin: 0; padding: 0 7px 0 0;
+	 background-color: #5B4337;
+	 -moz-border-radius: 5px 5px px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	-khtml-border-radius: 5px 5px 0px 0px;
+}
+
+.old .noteTop p {
+	margin: 0;
+	padding: 5px 0 0 7px;
+	font-family: Interstate-Black, "Arial Black", sans-serif;
+	color: #f9bc26;
+	font-size: 12px;
+}
+
+.old .noteBottom {
+	 margin: 0; padding: 0 7px 0 0;
+	 background-color: #5B4337;
+ 	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	-khtml-border-radius: 0px 0px 5px 5px;
+}
+
+.old .noteBottom p {
+	margin: 0;
+	padding: 0px 0 7px 7px;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	color: #e8d6c6;
+}
+
+.old .noteBottom p a:link {
+	color: #d8b593;
+}
+
+.old .noteBottom p a:visited {
+	color: #d8b593;
+}
+
+.old .noteBottom p a:hover {
+	color: #FFF;
+}
+
+.old .noteTopSpecial {
+	margin: 0; padding: 0 7px 0 0;
+	background-color: #4999C9;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	-khtml-border-radius: 5px 5px 0px 0px;
+}
+
+.old .noteTopSpecial p {
+	margin: 0;
+	padding: 5px 0 0 7px;
+	font-family: Interstate-Black, "Arial Black", sans-serif;
+	color: #f9bc26;
+	font-size: 12px;
+}
+
+.old .noteBottomSpecial {
+	 margin: 0; padding: 0 7px 0 0;
+	 background-color: #4999C9;
+	 -moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	-khtml-border-radius: 0px 0px 5px 5px;
+}
+
+.old .noteBottomSpecial p {
+	margin: 0;
+	padding: 0px 0 7px 7px;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	color: #e2dbd3;
+}
+
+.old .noteBottomSpecial p a:link {
+	color: #F9BC26;
+}
+
+.old .noteBottomSpecial p a:visited {
+	color: #F9BC26;
+}
+
+.old .noteBottomSpecial p a:hover {
+	color: #FFF;
+}
+
+/* end of styles for episode notes */
+
+/* styles for footer */
+
+.old .speical, .old span.special {
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	color: #990000;
+	text-transform: uppercase;
+}
+
+.ajaxSearch_highlight1 {background-color: #FFFF66; font-weight: bold;}
+.ajaxSearch_highlight2 {background-color: #A0FFFF; font-weight: bold;}
+.ajaxSearch_highlight3 {background-color: #99FF99; font-weight: bold;}
+.ajaxSearch_highlight4 {background-color: #FF9999; font-weight: bold;}
+.ajaxSearch_highlight5 {background-color: #FF66FF; font-weight: bold;}
+.ajaxSearch_highlight6 {background-color: #880000; font-weight: bold; color: white;}
+#ajaxSearch_input {width:80px; height: 11px; size: 9px; font-size: 10px;}
+#ajaxSearch_submit {
+	height: 16px;
+	width: 24px;
+	overflow: hidden;
+	background: url("../images/btn_go.gif") no-repeat top left;
+	cursor: hand;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0px;
+	text-indent: -5000px;
+}
+.clear {clear: both;}
