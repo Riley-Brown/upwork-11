@@ -36,21 +36,33 @@ a:focus {
   background: transparent;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 .header ul {
   list-style: none;
   float: left;
+  width: 100%;
   margin-top: 233px;
+  background: #663d54;
+}
+.header-container {
+  max-width: 1040px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
 }
 
 .header li {
-  float: left;
+  /* float: left; */
   font: 16px/22px BrandonGrotesqueMedium, Arial, San-Serif;
   color: #f3f4f2;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   margin: 0 9px;
+  /* background: red; */
 }
 
 .header li a {
