@@ -236,7 +236,35 @@ a:focus {
   color: #be1e2d;
 }
 
-.twentytwelve .download .permalink {
+/* special episode */
+.special-episode {
+  display: flex;
+  /* width: 95%; */
+  margin: 20px 15px;
+  justify-content: center;
+  background: var(--text-links);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: BrandonGrotesqueBlack, Arial, San-Serif;
+  text-transform: uppercase;
+}
+.special-episode a {
+  text-align: center;
+}
+.special-episode span {
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.special-episode span img {
+  margin-right: 7px;
+}
+.special-episode h2 {
+  color: var(--nav-links);
+}
+
+/* .twentytwelve .download .permalink {
   float: right;
   margin: -75px 30px 0 0;
   height: 34px;
@@ -250,9 +278,9 @@ a:focus {
 .twentytwelve .download .permalink:hover {
   background: transparent url(../images/permalink.png) no-repeat top right;
   background-size: 268px 34px;
-}
+} */
 
-.specialepisode {
+/* .specialepisode {
   font-size: 18px;
   line-height: 24px;
   padding: 15px;
@@ -270,7 +298,7 @@ a:focus {
   background-size: 185px 34px;
   display: block;
   z-index: 100;
-}
+} */
 
 .twentytwelve .episode h6 {
   padding: 8px 15px;
