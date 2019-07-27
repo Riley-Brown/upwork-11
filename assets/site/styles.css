@@ -41,7 +41,7 @@ a:focus {
 }
 
 .container {
-  width: 1040px;
+  max-width: 1040px;
   margin: 0 auto;
 }
 
@@ -62,12 +62,13 @@ a:focus {
   background: var(--nav-bg);
 }
 .header-container {
-  max-width: 1040px;
+  max-width: 1024px;
   margin: auto;
   display: flex;
   align-items: center;
   height: 50px;
   justify-content: space-between;
+  width: 90%;
 }
 
 .header ul button {
@@ -181,6 +182,12 @@ a:focus {
   margin: 15px 8px 30px 8px;
   border-radius: 10px;
   position: relative;
+}
+@media (max-width: 1060px) {
+  .twentytwelve .episode {
+    width: 90%;
+    margin: 30px auto;
+  }
 }
 /* permalink */
 .permalink {
@@ -357,6 +364,11 @@ a:focus {
   box-sizing: border-box;
   flex: 25%;
 }
+@media (max-width: 1060px) {
+  .twentytwelve div.song {
+    flex: 0 0 33.33%;
+  }
+}
 /* song img */
 .twentytwelve div.song img {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
@@ -462,6 +474,7 @@ a:focus {
   min-width: 205px;
   margin: 15px;
   margin-bottom: 70px;
+  flex: 1 1 auto;
 }
 
 .twentytwelve .note h1 {
