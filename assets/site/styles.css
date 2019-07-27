@@ -515,6 +515,17 @@ a:focus {
   clear: both;
 }
 
+/* old episode version 2 */
+@media (max-width: 1060px) {
+  .old.episodeVersion2 {
+    width: 90%;
+    margin: auto;
+  }
+  .old.episodeVersion2 .noteWide {
+    width: 100%;
+  }
+}
+
 .twentytwelve #footer .oldershows {
   float: left;
   margin: 0 0px 0px 30px;
