@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="8" viewBox="0 0 11 8">
+    <defs>
+        <filter id="a" width="105.7%" height="123.8%" x="-2.8%" y="-11.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="c" d="M77.1 10h9.046c.626 0 .939.756.496 1.199l-4.521 4.524a.704.704 0 0 1-.995 0L76.605 11.2A.702.702 0 0 1 77.1 10z"/>
+        <filter id="b" width="109.6%" height="133.7%" x="-4.8%" y="-8.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero" filter="url(#a)" transform="translate(-76 -10)">
+        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+        <use fill="#FFC600" xlink:href="#c"/>
+    </g>
+</svg>
