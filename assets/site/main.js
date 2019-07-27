@@ -1,7 +1,7 @@
 function toggleSeasonsMenu() {
   const seasonsMenu = document.querySelector('.seasons-menu');
-  const seasonsNav = document.querySelector('#seasons button');
-  const seasonsNavImg = document.querySelector('#seasons button img');
+  const seasonsNav = document.querySelector('#seasons-nav button');
+  const seasonsNavImg = document.querySelector('#seasons-nav button img');
 
   seasonsNav.addEventListener('click', e => {
     seasonsMenu.classList.toggle('seasons-menu-active');
