@@ -126,7 +126,10 @@ a:focus {
     cursor: pointer;
   }
 
-  /* mobile nav */
+  #nav-mobile .menu-toggle img {
+    width: 11px;
+  }
+  /* mobile nav container */
   #nav-mobile {
     position: relative;
     height: 50px;
