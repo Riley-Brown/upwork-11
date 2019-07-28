@@ -59,12 +59,13 @@ function singleColumnSongs(bool) {
   }
 }
 
-// listen for matchMedia event
+// fires event when window is < 550px and > 550px
 const mq = window.matchMedia('(max-width: 550px)');
 
 // initial check
 singleColumnSongs(mq.matches);
 
+// listen for matchMedia event
 mq.addListener(() => {
   if (mq.matches) {
     singleColumnSongs(true);
