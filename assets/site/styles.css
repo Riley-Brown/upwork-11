@@ -453,6 +453,15 @@ a:focus {
     flex: 0 0 33.33%;
   }
 }
+@media (max-width: 550px) {
+  .twentytwelve div.song {
+    flex: 0 0 100%;
+    display: flex;
+  }
+  .twentytwelve div.song ul {
+    margin-left: 20px;
+  }
+}
 /* song img */
 .twentytwelve div.song img {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
