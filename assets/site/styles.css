@@ -61,6 +61,12 @@ a:focus {
   margin-top: 233px;
   background: var(--nav-bg);
 }
+/* hides home icon */
+@media (max-width: 1060px) {
+  .header ul li:first-of-type {
+    display: none;
+  }
+}
 .header-container {
   max-width: 1024px;
   margin: auto;
@@ -68,7 +74,26 @@ a:focus {
   align-items: center;
   height: 50px;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
+}
+#searchbox {
+  width: 100%;
+}
+#serchbox input {
+  border: 1px solid var(--nav-links);
+  display: none;
+}
+#searchbox #search {
+  max-width: 150px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--nav-links);
+}
+#searchbox #submit {
+  background: var(--nav-links);
+  border: none;
+  padding: 5px;
+  /* color: var(--text-white); */
 }
 
 .header ul button {
@@ -90,6 +115,12 @@ a:focus {
   transition: 200ms;
   font: 16px/22px BrandonGrotesqueMedium, Arial, San-Serif;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 920px) {
+  .header li a,
+  .header ul button {
+    padding: 0 10px;
+  }
 }
 .header li a:hover,
 .header li button:hover {
@@ -185,7 +216,7 @@ a:focus {
 }
 @media (max-width: 1060px) {
   .twentytwelve .episode {
-    width: 90%;
+    width: 95%;
     margin: 30px auto;
   }
 }
@@ -347,7 +378,7 @@ a:focus {
 /* songs container */
 .twentytwelve div.songs {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -518,7 +549,7 @@ a:focus {
 /* old episode version 2 */
 @media (max-width: 1060px) {
   .old.episodeVersion2 {
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
   .old.episodeVersion2 .noteWide {
