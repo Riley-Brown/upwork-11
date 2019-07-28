@@ -115,6 +115,7 @@ a:focus {
   .menu-toggle {
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
 
   /* mobile nav */
@@ -606,6 +607,25 @@ a:focus {
   }
   .old.episodeVersion2 .noteWide {
     width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .old.episodeVersion2 .noteNarrow {
+    width: 100%;
+    margin: 0;
+  }
+  .old.episodeVersion2 .episodeTopOld .albums {
+    height: 100%;
+  }
+  .old.episodeVersion2 .episodeTopOld {
+    height: auto;
+  }
+
+  .old.episodeVersion2 .episodeTopSpecial {
+    height: auto;
+  }
+  .old.episodeVersion2 .episodeTop {
+    height: auto;
   }
 }
 
