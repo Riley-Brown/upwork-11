@@ -285,6 +285,13 @@ a:focus {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+@media (max-width: 550px) {
+  .permalink {
+    right: initial;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 .permalink a {
   color: var(--text-white);
   display: flex;
