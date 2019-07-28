@@ -61,6 +61,18 @@ a:focus {
   margin-top: 233px;
   background: var(--nav-bg);
 }
+/* hides twitter and facebook text until mobile menu */
+.header ul .header-container li.facebook-nav span,
+.header ul .header-container li.twitter-nav span {
+  display: none;
+}
+@media (max-width: 768px) {
+  .header ul .header-container li.facebook-nav span,
+  .header ul .header-container li.twitter-nav span {
+    display: inline;
+    margin-left: 7px;
+  }
+}
 /* hides home icon */
 @media (max-width: 1060px) {
   .header ul li:first-of-type {
