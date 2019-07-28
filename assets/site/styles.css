@@ -638,6 +638,17 @@ a:focus {
   }
 }
 
+@media (max-width: 550px) {
+  .old.episodeVersion2 .song {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+  }
+  .old.episodeVersion2 .episodeContent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .twentytwelve #footer .oldershows {
   float: left;
   margin: 0 0px 0px 30px;
