@@ -39,3 +39,36 @@ function toggleMobileMenu() {
 }
 
 toggleMobileMenu();
+
+// change song img width and height for mobile
+function singleColumnSongs(bool) {
+  const songImgs = document.querySelectorAll(
+    '.twentytwelve .episode div.song img'
+  );
+
+  if (bool) {
+    songImgs.forEach(song => {
+      song.style.width = '75px';
+      song.style.height = '75px';
+    });
+  } else {
+    songImgs.forEach(song => {
+      song.style.width = '225px';
+      song.style.height = '225px';
+    });
+  }
+}
+
+// listen for matchMedia event
+const mq = window.matchMedia('(max-width: 550px)');
+
+// initial check
+singleColumnSongs(mq.matches);
+
+mq.addListener(() => {
+  if (mq.matches) {
+    singleColumnSongs(true);
+  } else {
+    singleColumnSongs(false);
+  }
+});
