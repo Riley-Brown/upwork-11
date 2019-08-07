@@ -139,7 +139,7 @@ a:focus {
   }
 }
 
-#searchbox {
+/* #searchbox {
   width: 100%;
 }
 #serchbox input {
@@ -156,7 +156,18 @@ a:focus {
   background: var(--nav-links);
   border: none;
   padding: 5px;
-  /* color: var(--text-white); */
+} */
+
+/* google search box */
+#___gcse_0 {
+  height: 50px;
+  box-sizing: border-box;
+}
+
+#___gcse_0 .gsc-control-cse {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 .header ul button {
@@ -176,7 +187,7 @@ a:focus {
   align-items: center;
   padding: 0 20px;
   transition: 200ms;
-  font: 16px/22px BrandonGrotesqueMedium, Arial, San-Serif;
+  font: 16px/22px Ilisarniq-Bold, Arial, San-Serif;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 920px) {
@@ -299,7 +310,7 @@ a:focus {
   color: var(--text-white);
   background: var(--nav-bg);
   padding: 7px 15px;
-  font-family: BrandonGrotesqueMedium, Arial, San-Serif;
+  font-family: Ilisarniq-Bold, Arial, San-Serif;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -350,7 +361,7 @@ a:focus {
   text-align: center;
   color: var(--nav-links);
   text-transform: uppercase;
-  font-family: BrandonGrotesqueBlack, Arial, San-Serif;
+  font-family: Ilisarniq-Bold, Arial, San-Serif;
   font-size: 14px;
 }
 .twentytwelve .download span {
@@ -361,14 +372,14 @@ a:focus {
 }
 .twentytwelve .download span img {
   margin-right: 7px;
-  width: 13px;
-  height: 13px;
+  width: 14px;
+  height: 15px;
 }
 
 .twentytwelve .download h2,
 .twentytwelve .download h2 a {
   text-transform: uppercase;
-  font: 24px/23px BrandonGrotesqueBlack, Arial, San-Serif;
+  font: 24px/23px Ilisarniq-Bold, Arial, San-Serif;
   color: var(--text-white);
   text-align: center;
   z-index: 50;
@@ -388,7 +399,7 @@ a:focus {
   background: var(--text-links);
   border-radius: 10px;
   padding: 10px;
-  font-family: BrandonGrotesqueBlack, Arial, San-Serif;
+  font-family: Ilisarniq-Bold, Arial, San-Serif;
   text-transform: uppercase;
 }
 
@@ -402,7 +413,9 @@ a:focus {
   align-items: center;
 }
 .special-episode span img {
-  margin-right: 7px;
+  margin-right: 5px;
+  height: 19px;
+  width: 18px;
 }
 .special-episode h2 {
   color: var(--nav-links);
@@ -447,7 +460,7 @@ a:focus {
 .twentytwelve .episode h6 {
   padding: 8px 15px;
   margin: 5px 0 -5px 0;
-  font: 20px/22px BrandonGrotesqueBold, Arial, San-Serif;
+  font: 20px/22px Ilisarniq-Bold, Arial, San-Serif;
   color: #be1e2d;
   text-align: center;
   text-transform: uppercase;
@@ -523,7 +536,7 @@ a:focus {
 }
 
 .twentytwelve .song {
-  font: 16px/22px BrandonGrotesqueLight, Arial, San-Serif;
+  font: 16px/22px Ilisarniq-Light, Arial, San-Serif;
   color: #909c9f;
 }
 
@@ -541,38 +554,38 @@ a:focus {
 }
 
 .twentytwelve .song .band a {
-  font: 20px/22px BrandonGrotesqueBold;
+  font: 20px/22px Ilisarniq-Bold;
   color: #be1e2d;
   text-decoration: none;
 }
 
 .twentytwelve .song .band em {
-  font: 16px/22px BrandonGrotesqueRegular;
+  font: 16px/22px Ilisarniq-Light;
   color: #333;
   text-decoration: none;
 }
 
 .twentytwelve .song span {
-  font: 16px/22px BrandonGrotesqueRegular;
+  font: 16px/22px Ilisarniq-Light;
   color: #333;
 }
 
 .twentytwelve .song .album {
-  font: 16px/22px BrandonGrotesqueRegular;
+  font: 16px/22px 'Ilisarniq-Light';
   color: #333;
 }
 
 .twentytwelve .song .album em {
-  font: 16px/22px BrandonGrotesqueMediumItalic;
+  font: 16px/22px 'Ilisarniq-DemiItalic';
 }
 
 .twentytwelve .song .similar {
-  font: 16px/22px BrandonGrotesqueLight;
+  font: 16px/22px 'Ilisarniq-Light';
   color: #727272;
 }
 
 .twentytwelve .song .similar a {
-  font: 16px/22px BrandonGrotesqueMedium;
+  font: 16px/22px 'Ilisarniq-Demi';
   color: #40a2d1;
   text-decoration: none;
 }
@@ -597,20 +610,20 @@ a:focus {
 
 .twentytwelve .note h1 {
   text-transform: uppercase;
-  font: 16px/23px BrandonGrotesqueBlack;
+  font: 16px/23px 'Ilisarniq-Bold';
   color: var(--dark-purple);
 }
 
 .twentytwelve .note p {
-  font: 16px/23px BrandonGrotesqueRegular;
+  font: 16px/23px 'Ilisarniq-Light';
 }
 
 .twentytwelve .note strong {
-  font: 16px/23px BrandonGrotesqueBold;
+  font: 16px/23px 'Ilisarniq-Bold';
 }
 
 .twentytwelve .note em {
-  font: 16px/23px BrandonGrotesqueMediumItalic;
+  font: 16px/23px 'Ilisarniq-DemiItalic';
 }
 
 .twentytwelve .note a {
@@ -705,7 +718,7 @@ a:focus {
 }
 
 .twentytwelve .about p {
-  font: 17px/22px BrandonGrotesqueRegular, Arial, San-Serif;
+  font: 17px/22px 'Ilisarniq-Light', Arial, San-Serif;
   color: #333;
   margin-bottom: 15px;
   width: 626px;
@@ -713,7 +726,7 @@ a:focus {
 }
 
 .twentytwelve .about h1 {
-  font: 22px/22px BrandonGrotesqueBold, Arial, San-Serif;
+  font: 22px/22px 'Ilisarniq-Bold', Arial, San-Serif;
   color: #3b2314;
   margin-bottom: 10px;
   width: 626px;
