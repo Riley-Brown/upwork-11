@@ -25,6 +25,7 @@ body {
   background-color: #efefef;
   background-repeat: no-repeat;
   background-position: center top;
+  letter-spacing: -0.01em;
 }
 
 a img {
@@ -46,8 +47,30 @@ a:focus {
 }
 
 /* header styles */
+
+#random {
+  /* BOX MODEL */
+  width: 100%;
+  height: 229px;
+  
+  /* ENHANCEMENT */
+  background-image: url('../images/header-05.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.headertext {
+  background-image: url('../images/tsimh-banner-desktop-text.svg');
+  background-position: center center;
+  background-size: 100%;
+  height: 229px;
+  width: 910px;
+  margin: 0px auto;
+  background-repeat: no-repeat;  
+}
+
 .header {
-  height: 259px;
   background: transparent;
   margin: 0;
   padding: 0;
@@ -58,7 +81,7 @@ a:focus {
   list-style: none;
   float: left;
   width: 100%;
-  margin-top: 233px;
+  margin-top: 0px;
   background: var(--nav-bg);
 }
 /* hides twitter and facebook text until mobile menu */
@@ -72,6 +95,22 @@ a:focus {
     display: inline;
     margin-left: 7px;
   }
+  
+  #random {
+    /* BOX MODEL */
+    width: 100%;
+    height: 229px;
+	}
+	
+	.headertext {
+	  background-image: url('../images/tsimh-banner-desktop-text.svg');
+	  background-position: center center;
+	  background-size: 100%;
+	  height: 229px;
+	  width: 732px;
+	  margin: 0px auto;
+	  background-repeat: no-repeat;  
+	}
 }
 /* hides home icon */
 @media (max-width: 1060px) {
@@ -187,14 +226,16 @@ a:focus {
   align-items: center;
   padding: 0 20px;
   transition: 200ms;
-  font: 16px/22px Ilisarniq-Bold, Arial, San-Serif;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+  font: 16px/22px Ilisarniq-Demi, Arial, San-Serif;
+  text-shadow: none;/*
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);*/
 }
 @media (max-width: 920px) {
   .header li a,
   .header ul button {
     padding: 0 10px;
   }
+  
 }
 .header li a:hover,
 .header li button:hover {
@@ -225,7 +266,7 @@ a:focus {
   background: var(--dark-purple);
   z-index: 10;
   top: 50px;
-  padding: 20px;
+  padding: 10px 20px 5px 20px;
   display: flex;
   flex-wrap: wrap;
   min-width: 270px;
@@ -275,12 +316,13 @@ a:focus {
 
 #seasons-nav .seasons-menu .season-number {
   font-size: 12px;
+  font-family: Ilisarniq-Light, Arial, San-Serif;
+  line-height: 12px;
   transition: 200ms;
 }
 
 #seasons-nav .seasons-menu .season-year {
   color: var(--text-white);
-  font-weight: bold;
   transition: 200ms;
 }
 .twentytwelve .content {
@@ -290,7 +332,6 @@ a:focus {
 /* episode */
 .twentytwelve .episode {
   background-color: var(--text-white);
-  /* box-shadow: inner 0 0 5px #888; */
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   margin: 15px 8px 30px 8px;
   border-radius: 10px;
@@ -310,16 +351,39 @@ a:focus {
   color: var(--text-white);
   background: var(--nav-bg);
   padding: 7px 15px;
-  font-family: Ilisarniq-Bold, Arial, San-Serif;
+  font-family: Ilisarniq-Demi, Arial, San-Serif;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  font-weight: normal;
+  transition: 200ms;
 }
+
+.permalink:hover {
+  background: var(--text-links);
+}
+
 @media (max-width: 550px) {
   .permalink {
     right: initial;
     left: 50%;
     transform: translateX(-50%);
+	font-weight: normal;
   }
+  
+#random {
+	width: 100%;
+	height: 229px;
+}
+  	
+.headertext {
+  background-image: url('../images/tsimh-banner-mobile-text.svg');
+  background-position: center center;
+  background-size: 100%;
+  height: 229px;
+  width: 263px;
+  margin: 0px auto;
+  background-repeat: no-repeat;  
+	}
 }
 .permalink a {
   color: var(--text-white);
@@ -331,7 +395,7 @@ a:focus {
   font-size: 16px;
 }
 .permalink a img {
-  margin-right: 10px;
+  margin: 4px 10px 0 0;
 }
 
 /* about */
@@ -348,7 +412,6 @@ a:focus {
 .twentytwelve .download {
   height: 80px;
   width: 100%;
-  /* background: url(../images/episode-header.png) no-repeat top center; */
   background-size: 1024px 68px;
   background: var(--nav-bg);
   border-top-left-radius: 10px;
@@ -356,7 +419,7 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  margin-bottom: 5px;}
 .twentytwelve .download a {
   text-align: center;
   color: var(--nav-links);
@@ -371,30 +434,30 @@ a:focus {
   margin-bottom: 5px;
 }
 .twentytwelve .download span img {
+  margin-top: 1px;
   margin-right: 7px;
   width: 14px;
-  height: 15px;
+  height: 14px;
 }
 
 .twentytwelve .download h2,
 .twentytwelve .download h2 a {
   text-transform: uppercase;
-  font: 24px/23px Ilisarniq-Bold, Arial, San-Serif;
+  font: 20px/19px Ilisarniq-Bold, Arial, San-Serif;
   color: var(--text-white);
   text-align: center;
   z-index: 50;
+  margin: 0 15px;
   /* padding: 32px 0 20px; */
 }
 
 .twentytwelve .download h2:hover {
-  color: #be1e2d;
+  color: #FFC600;
 }
 
 /* special episode */
 .special-episode {
-  display: flex;
-  /* width: 95%; */
-  margin: 20px 15px;
+  margin: 20px 15px 10px;
   justify-content: center;
   background: var(--text-links);
   border-radius: 10px;
@@ -403,9 +466,6 @@ a:focus {
   text-transform: uppercase;
 }
 
-.special-episode a {
-  text-align: center;
-}
 .special-episode span {
   color: var(--text-white);
   display: flex;
@@ -413,49 +473,18 @@ a:focus {
   align-items: center;
 }
 .special-episode span img {
-  margin-right: 5px;
-  height: 19px;
-  width: 18px;
+  margin-right: 6px;
+  width: 18px;  height: 19px;
 }
 .special-episode h2 {
+  display: flex;
+  margin-top: 2px;
+  font: 20px/22px Ilisarniq-Bold, Arial, San-Serif;
+  justify-content: center;
+  align-items: center;
   color: var(--nav-links);
-}
-
-/* .twentytwelve .download .permalink {
-  float: right;
-  margin: -75px 30px 0 0;
-  height: 34px;
-  width: 134px;
-  background: transparent url(../images/permalink.png) no-repeat top left;
-  background-size: 268px 34px;
-  display: block;
-  z-index: 100;
-}
-
-.twentytwelve .download .permalink:hover {
-  background: transparent url(../images/permalink.png) no-repeat top right;
-  background-size: 268px 34px;
-} */
-
-/* .specialepisode {
-  font-size: 18px;
-  line-height: 24px;
-  padding: 15px;
-  font-weight: bold;
-  color: darkred;
   text-align: center;
 }
-
-.twentytwelve .download .specialepisode {
-  float: left;
-  margin: -75px 0 0 0;
-  height: 34px;
-  width: 185px;
-  background: transparent url(../images/special-episode.png) no-repeat top left;
-  background-size: 185px 34px;
-  display: block;
-  z-index: 100;
-} */
 
 .twentytwelve .episode h6 {
   padding: 8px 15px;
@@ -503,6 +532,7 @@ a:focus {
 /* song img */
 .twentytwelve div.song img {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 9px;
 }
 
 /* XXXX - this will match the first item on the row and clear it*/
@@ -551,10 +581,12 @@ a:focus {
 }
 
 .twentytwelve .song li {
+  font: 16px/22px Ilisarniq-Light, Helvetica, sans-serif;
+  color: #A6B4B8;
 }
 
 .twentytwelve .song .band a {
-  font: 20px/22px Ilisarniq-Bold;
+  font: 17px/22px Ilisarniq-Bold;
   color: #be1e2d;
   text-decoration: none;
 }
@@ -571,21 +603,21 @@ a:focus {
 }
 
 .twentytwelve .song .album {
-  font: 16px/22px 'Ilisarniq-Light';
+  font: 16px/22px Ilisarniq-Light;
   color: #333;
 }
 
 .twentytwelve .song .album em {
-  font: 16px/22px 'Ilisarniq-DemiItalic';
+  font: 16px/22px Ilisarniq-DemiItalic;
 }
 
 .twentytwelve .song .similar {
-  font: 16px/22px 'Ilisarniq-Light';
-  color: #727272;
+  font: 16px/22px Ilisarniq-Light;
+  color: #A6B4B8;
 }
 
 .twentytwelve .song .similar a {
-  font: 16px/22px 'Ilisarniq-Demi';
+  font: 16px/22px Ilisarniq-Demi;
   color: #40a2d1;
   text-decoration: none;
 }
@@ -600,30 +632,31 @@ a:focus {
   box-sizing: border-box;
   background-color: var(--note-bg);
   border-radius: 10px;
-  padding: 20px 15px;
+  padding: 15px 15px;
   height: 100%;
   min-width: 205px;
   margin: 15px;
   margin-bottom: 70px;
   flex: 1 1 auto;
+  border: 1px solid #DBDBDB;
 }
 
 .twentytwelve .note h1 {
   text-transform: uppercase;
-  font: 16px/23px 'Ilisarniq-Bold';
+  font: 16px/22px 'Ilisarniq-Bold';
   color: var(--dark-purple);
 }
 
 .twentytwelve .note p {
-  font: 16px/23px 'Ilisarniq-Light';
+  font: 16px/22px 'Ilisarniq-Light';
 }
 
 .twentytwelve .note strong {
-  font: 16px/23px 'Ilisarniq-Bold';
+  font: 16px/22px 'Ilisarniq-Bold';
 }
 
 .twentytwelve .note em {
-  font: 16px/23px 'Ilisarniq-DemiItalic';
+  font: 16px/22px 'Ilisarniq-DemiItalic';
 }
 
 .twentytwelve .note a {
