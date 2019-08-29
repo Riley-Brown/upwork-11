@@ -52,12 +52,12 @@ a:focus {
   /* BOX MODEL */
   width: 100%;
   height: 229px;
-  
+
   /* ENHANCEMENT */
   background-image: url('../images/header-05.jpg');
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .headertext {
@@ -67,7 +67,7 @@ a:focus {
   height: 229px;
   width: 910px;
   margin: 0px auto;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -95,22 +95,22 @@ a:focus {
     display: inline;
     margin-left: 7px;
   }
-  
+
   #random {
     /* BOX MODEL */
     width: 100%;
     height: 229px;
-	}
-	
-	.headertext {
-	  background-image: url('../images/tsimh-banner-desktop-text.svg');
-	  background-position: center center;
-	  background-size: 100%;
-	  height: 229px;
-	  width: 732px;
-	  margin: 0px auto;
-	  background-repeat: no-repeat;  
-	}
+  }
+
+  .headertext {
+    background-image: url('../images/tsimh-banner-desktop-text.svg');
+    background-position: center center;
+    background-size: 100%;
+    height: 229px;
+    width: 732px;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+  }
 }
 /* hides home icon */
 @media (max-width: 1060px) {
@@ -191,22 +191,38 @@ a:focus {
   padding: 5px;
   border: 1px solid var(--nav-links);
 }
-#searchbox #submit {
+/* #searchbox #submit {
   background: var(--nav-links);
   border: none;
   padding: 5px;
-} */
+} 
 
 /* google search box */
-#___gcse_0 {
+#___gcse_0,
+#___gcse_1 {
   height: 50px;
   box-sizing: border-box;
 }
 
-#___gcse_0 .gsc-control-cse {
+#___gcse_0 .gsc-control-cse,
+#___gcse_1 .gsc-control-cse {
   height: 50px;
   box-sizing: border-box;
   padding: 0;
+}
+
+/* google search button */
+.gsc-search-button.gsc-search-button-v2 {
+  height: 45px;
+  background: var(--nav-bg);
+  border: none;
+}
+
+/* hides google search in mobile dropdown */
+@media (max-width: 768px) {
+  .header-container #___gcse_1 {
+    display: none;
+  }
 }
 
 .header ul button {
@@ -227,15 +243,16 @@ a:focus {
   padding: 0 20px;
   transition: 200ms;
   font: 16px/22px Ilisarniq-Demi, Arial, San-Serif;
-  text-shadow: none;/*
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);*/
+  text-shadow: none;
+  /*
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+*/
 }
 @media (max-width: 920px) {
   .header li a,
   .header ul button {
     padding: 0 10px;
   }
-  
 }
 .header li a:hover,
 .header li button:hover {
@@ -367,23 +384,23 @@ a:focus {
     right: initial;
     left: 50%;
     transform: translateX(-50%);
-	font-weight: normal;
+    font-weight: normal;
   }
-  
-#random {
-	width: 100%;
-	height: 229px;
-}
-  	
-.headertext {
-  background-image: url('../images/tsimh-banner-mobile-text.svg');
-  background-position: center center;
-  background-size: 100%;
-  height: 229px;
-  width: 263px;
-  margin: 0px auto;
-  background-repeat: no-repeat;  
-	}
+
+  #random {
+    width: 100%;
+    height: 229px;
+  }
+
+  .headertext {
+    background-image: url('../images/tsimh-banner-mobile-text.svg');
+    background-position: center center;
+    background-size: 100%;
+    height: 229px;
+    width: 263px;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+  }
 }
 .permalink a {
   color: var(--text-white);
@@ -419,7 +436,8 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5px;}
+  margin-bottom: 5px;
+}
 .twentytwelve .download a {
   text-align: center;
   color: var(--nav-links);
@@ -452,7 +470,7 @@ a:focus {
 }
 
 .twentytwelve .download h2:hover {
-  color: #FFC600;
+  color: #ffc600;
 }
 
 /* special episode */
@@ -474,7 +492,8 @@ a:focus {
 }
 .special-episode span img {
   margin-right: 6px;
-  width: 18px;  height: 19px;
+  width: 18px;
+  height: 19px;
 }
 .special-episode h2 {
   display: flex;
@@ -582,7 +601,7 @@ a:focus {
 
 .twentytwelve .song li {
   font: 16px/22px Ilisarniq-Light, Helvetica, sans-serif;
-  color: #A6B4B8;
+  color: #a6b4b8;
 }
 
 .twentytwelve .song .band a {
@@ -613,7 +632,7 @@ a:focus {
 
 .twentytwelve .song .similar {
   font: 16px/22px Ilisarniq-Light;
-  color: #A6B4B8;
+  color: #a6b4b8;
 }
 
 .twentytwelve .song .similar a {
@@ -638,7 +657,7 @@ a:focus {
   margin: 15px;
   margin-bottom: 70px;
   flex: 1 1 auto;
-  border: 1px solid #DBDBDB;
+  border: 1px solid #dbdbdb;
 }
 
 .twentytwelve .note h1 {
