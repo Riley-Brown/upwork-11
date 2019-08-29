@@ -1,21 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="9" viewBox="0 0 11 9">
-    <defs>
-        <filter id="a" width="105.7%" height="123.8%" x="-2.8%" y="-11.9%" filterUnits="objectBoundingBox">
-            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-        <path id="c" d="M86.148 15.625h-9.046a.703.703 0 0 1-.497-1.2L81.128 9.9a.703.703 0 0 1 .994 0l4.523 4.524a.703.703 0 0 1-.497 1.2z"/>
-        <filter id="b" width="109.6%" height="133.7%" x="-4.8%" y="-8.4%" filterUnits="objectBoundingBox">
-            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
-        </filter>
-    </defs>
-    <g fill="none" fill-rule="nonzero" filter="url(#a)" transform="translate(-76 -9)">
-        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
-        <use fill="#FFF" xlink:href="#c"/>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 11 9" style="enable-background:new 0 0 11 9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M10.3,7H0.7C0.3,7,0,6.7,0,6.2C0,6,0.1,5.8,0.2,5.7l4.8-5c0.3-0.3,0.8-0.3,1,0l4.8,5c0.3,0.3,0.3,0.8,0,1.1
+	C10.6,6.9,10.5,7,10.3,7L10.3,7z"/>
 </svg>
